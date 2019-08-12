@@ -5,11 +5,11 @@ import java.util.*;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class ch5_BinaryTree.TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ *     ch5_BinaryTree.TreeNode left;
+ *     ch5_BinaryTree.TreeNode right;
+ *     ch5_BinaryTree.TreeNode(int x) { val = x; }
  * }
  */
 
