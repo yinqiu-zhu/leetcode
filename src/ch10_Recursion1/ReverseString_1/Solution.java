@@ -1,4 +1,4 @@
-package ch5_Recursion1.ReverseString_1;
+package ch10_Recursion1.ReverseString_1;
 
 public class Solution {
   public void reverseString(char[] s) {
