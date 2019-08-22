@@ -29,7 +29,6 @@ public class Solution_old {
     List<Integer> res = new LinkedList<>();
 
 
-
     return res;
   }
 }
