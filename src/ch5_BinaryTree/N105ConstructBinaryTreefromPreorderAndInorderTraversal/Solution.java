@@ -34,8 +34,8 @@ public class Solution {
     if (start == end) return root;
 
     int posInInorder = map.get(preorder[start]);
-    root.left = buildRoot(start + residual+1, posInInorder + residual, residual+1);
-    root.right = buildRoot(posInInorder  + 1, end, residual);
+    root.left = buildRoot(start  + 1, posInInorder + residual, residual+1);
+    root.right = buildRoot(posInInorder + residual + 1, end, residual);
     return root;
 
   }
@@ -44,13 +44,8 @@ public class Solution {
 
     {Solution one = new Solution();
 
-    TreeNode x= one.buildTree(new  int[]{3,9,20,15,7}, new int[]{9,3,15,20,7});
-
-    sout(x);}
-
-    {Solution one = new Solution();
-
       TreeNode x= one.buildTree(new  int[]{1,2,3}, new int[]{3,2,1});
+      System.out.println( "--");
 
       sout(x);}
   }
