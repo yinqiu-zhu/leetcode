@@ -1,4 +1,4 @@
-package ch5_Recursion1.SwapNodesInPairs_2;
+package ch10_Recursion1.SwapNodesInPairs_2;
 
 public class Solution {
 

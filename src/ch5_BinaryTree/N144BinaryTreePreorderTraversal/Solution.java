@@ -1,20 +1,25 @@
 package ch5_BinaryTree.N144BinaryTreePreorderTraversal;
 
+
+import ch5_BinaryTree.TreeNode;
+
+import java.util.LinkedList;
 import java.util.List;
 
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 public class Solution {
+
+  List<Integer> list = new LinkedList<>();
+
   public List<Integer> preorderTraversal(TreeNode root) {
 
+    dfs(root);
+    return list;
   }
 
+  public void  dfs(TreeNode root){
+    if (root == null) return;
+    list.add(root.val);
+    dfs(root.left);
+    dfs(root.right);
+  }
 }

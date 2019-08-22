@@ -1,4 +1,4 @@
-package ch5_Recursion1.FibonacciNumber_3;
+package ch10_Recursion1.FibonacciNumber_3;
 
 class Solution {
 
