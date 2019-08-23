@@ -21,7 +21,7 @@ class Node {
     }
 };
 */
-class Solution_old {
+class Solution {
   public Node connect(Node root) {
 
     //exception
