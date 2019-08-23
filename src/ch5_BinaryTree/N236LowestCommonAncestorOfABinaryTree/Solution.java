@@ -19,19 +19,24 @@ class Solution {
     if (root == null ) return null;
     this.p = p;
     this.q = q;
+
+    return dfs(root);
   }
 
   public TreeNode dfs(TreeNode root){
-    TreeNode left = null, right = null, cur = null;
 
+    if(root == p) 
+      return root;
+    if(root == q) 
+     return root;
 
-    if (root.left != null) left = dfs(root.left);
-    if (root.right != null) right = dfs(root.right);
-    if (left == null && right == null && root != p && root != q) return null;
-    else {
-      if (root == p) cur = p;
-      if (root == q) cur = q;
-      if ( left != null || right != null)
-    }
+    TreeNode left = root.left == null? null : dfs(root.left);
+    TreeNode right = root.right == null? null : dfs(root.right);
+    if (left != null && right != null)
+     return root;
+    else if(left != null) return left;
+    else if(right != null) return right;
+
+    return null;
   }
 }

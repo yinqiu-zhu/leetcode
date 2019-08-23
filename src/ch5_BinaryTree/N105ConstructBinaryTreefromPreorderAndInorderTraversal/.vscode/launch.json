@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Solution",
+      "request": "launch",
+      "mainClass": "ch5_BinaryTree.N105ConstructBinaryTreefromPreorderAndInorderTraversal.Solution"
+    }
+  ]
+}

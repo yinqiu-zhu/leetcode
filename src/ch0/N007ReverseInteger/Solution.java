@@ -1,4 +1,4 @@
-package N007ReverseInteger;
+package ch0.N007ReverseInteger;
 
 class Solution {
     public int reverse(int x) {
