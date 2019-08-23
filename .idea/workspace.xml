@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efcd3151-0768-4c65-85ee-ee9fa77d46c7" name="Default Changelist" comment="" />
+    <list default="true" id="efcd3151-0768-4c65-85ee-ee9fa77d46c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch6_NaryTree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="558">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ch5_HashTable/DesignHashSet_1/MyHashSet.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/DesignHashMap_2/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/ContainsDuplicate_3/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/SingleNumber_4/Solution.java" />
@@ -90,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/ch5_BinaryTree/N144BinaryTreePreorderTraversal/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_BinaryTree/N297SerializeAndDeserializeBinaryTree/Codec.java" />
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/Node.java" />
+        <option value="$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java" />
       </list>
     </option>
   </component>
@@ -988,8 +995,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="558">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
