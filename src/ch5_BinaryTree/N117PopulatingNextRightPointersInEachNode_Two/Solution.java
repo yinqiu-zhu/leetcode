@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N116PopulatingNextRightPointersInEachNode;
+package ch5_BinaryTree.N117PopulatingNextRightPointersInEachNode_Two;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -21,11 +21,11 @@ class Node {
     }
 };
 */
-class Solution {
+class Solution_old {
   public Node connect(Node root) {
 
     //exception
-    if (root == null || root.left == null) return root;
+    if (root == null || root.left == null && root.right == null) return root;
 
     Queue<Node> queue = new LinkedList<>();
     queue.offer(root);
@@ -36,9 +36,10 @@ class Solution {
       for (int i = 0; i < size - 1; i++ ){
         Node temp = queue.poll();
         temp.next = queue.peek();
-        if (temp.left != null){
-        queue.offer(temp.left);
-        queue.offer(temp.right);}
+        if (temp.left != null)
+          queue.offer(temp.left);
+        if (temp.right != null)
+          queue.offer(temp.right);
       }
       queue.poll();
       queue.offer(null);
