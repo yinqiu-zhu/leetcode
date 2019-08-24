@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efcd3151-0768-4c65-85ee-ee9fa77d46c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch6_NaryTree/N590NaryTreePostorderTraversal/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="21" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,13 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N590NaryTreePostorderTraversal/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N559MaximumDepthOfNaryTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="18" selection-start-line="18" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,8 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ch5_HashTable/ContainsDuplicate_3/Solution.java" />
-        <option value="$PROJECT_DIR$/src/ch5_HashTable/SingleNumber_4/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/IntersectionOfTwoArrays_5/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/HappyNumber_6/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/TwoSum_7/Solution.java" />
@@ -109,6 +103,8 @@
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/Node.java" />
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/N589NaryTreePreorderTraversal/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/N590NaryTreePostorderTraversal/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ch6_NaryTree/N559MaximumDepthOfNaryTree/Solution.java" />
       </list>
     </option>
   </component>
@@ -148,14 +144,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch6_NaryTree" type="462c0819:PsiDirectoryNode" />
-              <item name="N589NaryTreePreorderTraversal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6_NaryTree" type="462c0819:PsiDirectoryNode" />
-              <item name="N590NaryTreePostorderTraversal" type="462c0819:PsiDirectoryNode" />
+              <item name="N559MaximumDepthOfNaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Codec">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch5_BinaryTree.N297SerializeAndDeserializeBinaryTree.Codec" />
       <module name="yinqiu_datastructure" />
@@ -221,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_HashTable.FindDuplicateSubtrees_17.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch4_HashTable.LongestSubstringWithoutRepeatingCharacters_19.Solution" />
       <module name="yinqiu_datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_HashTable.FindDuplicateSubtrees_17.*" />
+          <option name="PATTERN" value="ch4_HashTable.LongestSubstringWithoutRepeatingCharacters_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4_HashTable.LongestSubstringWithoutRepeatingCharacters_19.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch6_NaryTree.N429NaryTreeLevelOrderTraversal.Solution" />
       <module name="yinqiu_datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch4_HashTable.LongestSubstringWithoutRepeatingCharacters_19.*" />
+          <option name="PATTERN" value="ch6_NaryTree.N429NaryTreeLevelOrderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,19 +264,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.pivotIndex1_2" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.ValidWordAbbr" />
       <item itemvalue="Application.RandomizedSet" />
       <item itemvalue="Application.Codec" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Codec" />
         <item itemvalue="Application.RandomizedSet" />
         <item itemvalue="Application.ValidWordAbbr" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -326,8 +315,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35189483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31786543" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35189483" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31786543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959446" />
@@ -606,6 +595,12 @@
           <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ch3_QueueAndStack/BinaryTreeInorderTraversal_13/Solution.java</url>
           <line>29</line>
@@ -637,48 +632,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/HashSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/PerfectSquares_6/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/OpenTheLock_5/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="51" column="3" selection-start-line="7" selection-end-line="51" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch4_HashTable/TwoSum_7/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/MinStack_7/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/MinStack_7/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="51" selection-end-column="3" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/CloneGraph_11/Node.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1030,11 +983,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N590NaryTreePostorderTraversal/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="517">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N559MaximumDepthOfNaryTree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
