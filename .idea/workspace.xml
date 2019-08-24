@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efcd3151-0768-4c65-85ee-ee9fa77d46c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="efcd3151-0768-4c65-85ee-ee9fa77d46c7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +26,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N559MaximumDepthOfNaryTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="486">
+              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/EncodeNaryTreeToBinaryTree/Codec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/EncodeNaryTreeToBinaryTree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -54,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ch5_HashTable/IntersectionOfTwoArrays_5/Solution.java" />
-        <option value="$PROJECT_DIR$/src/ch5_HashTable/HappyNumber_6/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/TwoSum_7/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/IsomorphicStrings_8/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch5_HashTable/MinimumIndexSumOfTwoLists_9/Solution.java" />
@@ -105,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/N590NaryTreePostorderTraversal/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/N429NaryTreeLevelOrderTraversal/Solution.java" />
         <option value="$PROJECT_DIR$/src/ch6_NaryTree/N559MaximumDepthOfNaryTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ch6_NaryTree/EncodeNaryTreeToBinaryTree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/ch6_NaryTree/EncodeNaryTreeToBinaryTree/Codec.java" />
       </list>
     </option>
   </component>
@@ -137,6 +148,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5_BinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch6_NaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,7 +161,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch6_NaryTree" type="462c0819:PsiDirectoryNode" />
-              <item name="N559MaximumDepthOfNaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="EncodeNaryTreeToBinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,11 +181,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch6_NaryTree.EncodeNaryTreeToBinaryTree" />
       <recent name="ch2_LinkedList.CopyListWithRandomPointer_15" />
       <recent name="ch2_LinkedList.InsertIntoACyclicSortedList_14" />
       <recent name="ch2_LinkedList.AddTwoNumbers_12" />
       <recent name="ch2_LinkedList.PalindromeLinkedList_9" />
-      <recent name="ch2_LinkedList.OddEvenLinkedList_8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -632,14 +649,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/OpenJDK11/lib/src.zip!/java.base/java/util/Stack.java" />
-    <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/CloneGraph_11/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch3_QueueAndStack/TargetSum_12/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1031,8 +1040,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/N559MaximumDepthOfNaryTree/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="486">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/EncodeNaryTreeToBinaryTree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6_NaryTree/EncodeNaryTreeToBinaryTree/Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
