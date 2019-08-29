@@ -60,7 +60,20 @@ class Codec {
   }
 
   public Node deHelper(String data){
+    Node root = creatNode(data);
+    if(data.charAt(index) == '['){
+      root.children = new LinkedList<>();
+      index++;
+      while(data.charAt(index) != ']'){
+        root.children.add(deHelper(data));
+      }
+      index++;
+    }
 
+    return root;
+  }
+
+  public Node creatNode(String data){
     int val = 0, k = 1;
     if (data.charAt(index) == '-'){
       index++;
@@ -73,14 +86,6 @@ class Codec {
     Node node = new Node();
     node.val = k*val;
     index++;
-
-    if (data.charAt(index) != '['){
-      return node;
-    }
-    node.children = new LinkedList<>();
-    while ( data.charAt(index) != ']'){
-      deHelper(data);
-    }
     return node;
   }
 
@@ -109,6 +114,19 @@ class Codec {
     a1.children= a1_c;
 
     System.out.println(one.serialize(a1));
+    String data = one.serialize(a1);
+    soutN(one.deserialize(data));
+  }
+
+  public static void soutN(Node root){
+    if (root == null){
+      System.out.println("N");
+      return; }
+    System.out.println(root.val);
+    if (root.children != null)
+      for (Node a : root.children){
+        soutN(a);
+      }
   }
 
 }
