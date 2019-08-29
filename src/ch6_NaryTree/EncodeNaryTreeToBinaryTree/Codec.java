@@ -37,21 +37,24 @@ class Codec {
 
     if (root == null) return null;
 
-    List<Node> one = new LinkedList<>();
-    one.add(root);
-    return enHelper(one);
+    TreeNode rt = new TreeNode(root.val);
+    rt.left = enHelper(root);
+
+    return rt;
   }
 
-  public TreeNode enHelper(List<Node> list){
+  public TreeNode enHelper(Node root){
 
-    if (list == null) return null;
+    if (root.children == null) return null;
 
     TreeNode dummy = new TreeNode(0), temp = dummy;
 
-    for (Node child : list){
-      temp.right = new TreeNode(child.val);
-      temp.right.left = enHelper(child.children);
+
+    for (int i = 0; i < root.children.size(); i++){
+      Node one = root.children.get(i);
+      temp.right = new TreeNode(one.val);
       temp = temp.right;
+      temp.left = enHelper(one);
     }
 
     return dummy.right;
@@ -60,25 +63,19 @@ class Codec {
   // Decodes your binary tree to an n-ary tree.
   public Node decode(TreeNode root) {
     if (root == null) return null;
-    List<Node> list = new LinkedList<>();
-
-    return deHelper(root,list);
+    return deHelper(root);
   }
 
-  public Node deHelper(TreeNode root, List<Node> list){
+  public Node deHelper(TreeNode root){
 
     Node rt = new Node();
     rt.val = root.val;
-    list.add(rt);
+    rt.children = new LinkedList<>();
 
-    if (root.left!= null) {
-      List<Node> children = new LinkedList<>();
-      rt.children = children;
-      deHelper(root.left, rt.children);
-    }
-    if (root.right!= null) {
-      list.add(rt);
-      deHelper(root.right, list);
+    TreeNode temp = root.left;
+    while (temp != null){
+      rt.children.add(deHelper(temp));
+      temp = temp.right;
     }
 
     return rt;
@@ -108,17 +105,30 @@ class Codec {
     a3.children = a3_c;
     a1.children= a1_c;
 
-   sout(one.encode(a1));
+    TreeNode a = one.encode(a1);
+    soutT(a);
+   soutN(one.decode(a));
   }
 
-  public static void sout(TreeNode root){
+  public static void soutT(TreeNode root){
     if (root == null){
       System.out.println("N");
       return;
     };
     System.out.println(root.val);
-    sout(root.left);
-    sout(root.right);
+    soutT(root.left);
+    soutT(root.right);
+  }
+
+  public static void soutN(Node root){
+    if (root == null){
+      System.out.println("N");
+      return; }
+    System.out.println(root.val);
+    if (root.children != null)
+    for (Node a : root.children){
+      soutN(a);
+    }
   }
 }
 
