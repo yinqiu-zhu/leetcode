@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="194f2efc-3dcc-4f7c-8ec9-6baeffa61cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/first2last/N001/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/N871/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first2last/N001/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first2last/N001/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first2last/N002/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first2last/N002/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
