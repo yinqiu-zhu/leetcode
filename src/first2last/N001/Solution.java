@@ -1,7 +1,7 @@
 package first2last.N001;
 
 /*
-1. Two Sum
+1. Two Sum  E
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
  */
@@ -17,13 +17,16 @@ class Solution {
 
         //init
         Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) map.put(nums[i],i);
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], i);
+        }
 
         //body
-        for (int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             int temp = target - nums[i];
-            if (map.containsKey(temp) && map.get(temp) != i)
-                return new int[] {i, map.get(temp)};
+            if (map.containsKey(temp) && map.get(temp) != i) {
+                return new int[]{i, map.get(temp)};
+            }
         }
 
         // for there is exactly one solution, no exceptional condition will occur.
@@ -40,11 +43,13 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         //body
-        for (int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             int temp = target - nums[i];
-            if (map.containsKey(nums[i]))
-                return new int[] {map.get(nums[i]),i};
-            else map.put(temp, i);  // map contains all waiting-for-a-meet number with their indexes.
+            if (map.containsKey(nums[i])) {
+                return new int[]{map.get(nums[i]), i};
+            } else {
+                map.put(temp, i);
+            }  // map contains all waiting-for-a-meet number with their indexes.
         }
 
         // for there is exactly one solution, no exceptional condition will occur.
