@@ -1,6 +1,7 @@
 # Yinqiu's preference
 *.iml
 *.idea
+*src/.vscode
 
 # VScode
 .vscode
