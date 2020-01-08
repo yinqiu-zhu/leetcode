@@ -15,13 +15,11 @@ class Solution {
             Memory Usage: 36.9 MB, less than 99.08% of Java online submissions for Two Sum.
         */
 
-        //init
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
 
-        //body
         for (int i = 0; i < nums.length; i++) {
             int temp = target - nums[i];
             if (map.containsKey(temp) && map.get(temp) != i) {
@@ -39,17 +37,15 @@ class Solution {
         Memory Usage: 37.1 MB, less than 98.95% of Java online submissions for Two Sum.
         */
 
-        //init
         Map<Integer, Integer> map = new HashMap<>();
 
-        //body
         for (int i = 0; i < nums.length; i++) {
             int temp = target - nums[i];
             if (map.containsKey(nums[i])) {
                 return new int[]{map.get(nums[i]), i};
             } else {
                 map.put(temp, i);
-            }  // map contains all waiting-for-a-meet number with their indexes.
+            }  // map contains all the numbers needed to be addressed with their indexes.
         }
 
         // for there is exactly one solution, no exceptional condition will occur.

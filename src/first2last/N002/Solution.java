@@ -10,7 +10,7 @@ public class Solution {
     /**
      * Definition for singly-linked list.
      **/
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -22,18 +22,21 @@ public class Solution {
 
     int carry = 0; // to indicate whether a carry is needed.
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        //init
+    public ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
+
+        /**
+         * Runtime: 2 ms, faster than 67.52% of Java online submissions for Add Two Numbers.
+         * Memory Usage: 43.5 MB, less than 88.09% of Java online submissions for Add Two Numbers.
+         */
+
         ListNode res = new ListNode(0);
         ListNode head = res;
 
-        //body
         while (l1 != null || l2 != null) {
             if (l1 == null) {
                 head.next = sum(0, l2.val);
                 l2 = l2.next;
-            }
-            if (l2 == null) {
+            } else if (l2 == null) {
                 head.next = sum(l1.val, 0);
                 l1 = l1.next;
             } else {
@@ -61,12 +64,44 @@ public class Solution {
         }
     }
 
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
 
+        /**
+         * Runtime: 1 ms, faster than 100.00% of Java online submissions for Add Two Numbers.
+         * Memory Usage: 44.8 MB, less than 85.58% of Java online submissions for Add Two Numbers.
+         */
+
+        if (l1 == null && l2 == null) {
+            if (carry == 0) {
+                return null;
+            } else return new ListNode(1);
+        }
+        if (l1 == null) {
+            ListNode res = sum(0, l2.val);
+            res.next = addTwoNumbers2(null, l2.next);
+            return res;
+        }
+        if (l2 == null) {
+            ListNode res = sum(l1.val, 0);
+            res.next = addTwoNumbers2(l1.next, null);
+            return res;
+        } else {
+            ListNode res = sum(l1.val, l2.val);
+            res.next = addTwoNumbers2(l1.next, l2.next);
+            return res;
+        }
+
+    }
 
 
     public static void main(String[] args) {
         Solution test = new Solution();
-        Solution.ListNode a = new Solution.ListNode(0);
+        Solution.ListNode a = new ListNode(0);
+        Solution.ListNode b = new ListNode(7);
+        Solution.ListNode c = new ListNode(3);
+        b.next = c;
+
+        test.addTwoNumbers2(a, b);
 
     }
 }

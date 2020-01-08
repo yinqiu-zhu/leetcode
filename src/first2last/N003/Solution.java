@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *   + ###N003   Longest Substring Without Repeating Characters
- *     + Given a string, find the length of the longest substring without repeating characters.
- *        + **Example 1**: Input: "abcabcbb", Output: 3, Explanation: The answer is "abc", with the length of 3.
- *        + **Example 2**: Input: "bbbbb", Output: 1, Explanation: The answer is "b", with the length of 1.
- *        + **Example 3**: Input: "pwwkew", Output: 3, Explanation: The answer is "wke", with the length of 3.
- *        Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+ * + ###N003   Longest Substring Without Repeating Characters
+ * + Given a string, find the length of the longest substring without repeating characters.
+ * + **Example 1**: Input: "abcabcbb", Output: 3, Explanation: The answer is "abc", with the length of 3.
+ * + **Example 2**: Input: "bbbbb", Output: 1, Explanation: The answer is "b", with the length of 1.
+ * + **Example 3**: Input: "pwwkew", Output: 3, Explanation: The answer is "wke", with the length of 3.
+ * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  */
 public class Solution {
 
@@ -19,7 +19,7 @@ public class Solution {
          * Memory Usage: 35.7 MB, less than 100.00% of Java online submissions for Longest Substring Without Repeating Characters.
          */
 
-        if (s == null || s.length() == 0){
+        if (s == null || s.length() == 0) {
             return 0;
         }
 
@@ -41,6 +41,31 @@ public class Solution {
                 count = temp;
             }
             tail++;
+        }
+        return count;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
+
+        /**
+         * Runtime: 2 ms, faster than 99.72% of Java online submissions for Longest Substring Without Repeating Characters.
+         * Memory Usage: 36.9 MB, less than 99.76% of Java online submissions for Longest Substring Without Repeating Characters.
+         */
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        int count = 0;
+        int head = 0;
+        boolean[] store = new boolean[256];
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            while (store[ch]) {
+                store[s.charAt(head++)] = false;
+            }
+            store[ch] = true;
+            count = Math.max(count, i - head + 1);
         }
         return count;
     }
