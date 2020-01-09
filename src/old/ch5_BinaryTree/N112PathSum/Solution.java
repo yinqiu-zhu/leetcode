@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N112PathSum;
+package N112PathSum;
 
 import ch5_BinaryTree.TreeNode;
 

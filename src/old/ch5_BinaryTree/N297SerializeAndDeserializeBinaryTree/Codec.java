@@ -1,9 +1,6 @@
-package ch5_BinaryTree.N297SerializeAndDeserializeBinaryTree;
+package N297SerializeAndDeserializeBinaryTree;
 
-import ch5_BinaryTree.TreeNode;
-
-import java.util.LinkedList;
-import java.util.Queue;
+import old.ch5_BinaryTree.TreeNode;
 
 /**
  * Definition for a binary tree node.

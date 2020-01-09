@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N116PopulatingNextRightPointersInEachNode;
+package N116PopulatingNextRightPointersInEachNode;
 
 public class Node {
 

@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N116PopulatingNextRightPointersInEachNode;
+package N116PopulatingNextRightPointersInEachNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

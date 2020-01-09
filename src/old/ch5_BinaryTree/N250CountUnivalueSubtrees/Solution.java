@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N250CountUnivalueSubtrees;
+package N250CountUnivalueSubtrees;
 
 import ch5_BinaryTree.TreeNode;
 

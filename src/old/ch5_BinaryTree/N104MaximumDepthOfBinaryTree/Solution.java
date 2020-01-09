@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N104MaximumDepthOfBinaryTree;
+package N104MaximumDepthOfBinaryTree;
 
 import ch5_BinaryTree.TreeNode;
 

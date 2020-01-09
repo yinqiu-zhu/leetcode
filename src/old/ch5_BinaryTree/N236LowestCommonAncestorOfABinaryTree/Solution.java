@@ -1,6 +1,6 @@
-package ch5_BinaryTree.N236LowestCommonAncestorOfABinaryTree;
+package N236LowestCommonAncestorOfABinaryTree;
 
-import ch5_BinaryTree.TreeNode;
+import old.ch5_BinaryTree.TreeNode;
 
 /**
  * Definition for a binary tree node.

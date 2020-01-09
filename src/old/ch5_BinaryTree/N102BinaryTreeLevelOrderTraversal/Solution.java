@@ -1,6 +1,6 @@
-package ch5_BinaryTree.N102BinaryTreeLevelOrderTraversal;
+package N102BinaryTreeLevelOrderTraversal;
 
-import ch5_BinaryTree.TreeNode;
+import old.ch5_BinaryTree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

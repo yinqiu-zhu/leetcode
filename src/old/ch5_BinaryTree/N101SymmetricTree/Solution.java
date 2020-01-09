@@ -1,6 +1,6 @@
-package ch5_BinaryTree.N101SymmetricTree;
+package N101SymmetricTree;
 
-import ch5_BinaryTree.TreeNode;
+import old.ch5_BinaryTree.TreeNode;
 
 public class Solution {
 

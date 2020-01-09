@@ -1,6 +1,6 @@
-package ch5_BinaryTree.N106ConstructBinaryTreeFromInorderAndPostorderTraversal;
+package N106ConstructBinaryTreeFromInorderAndPostorderTraversal;
 
-import ch5_BinaryTree.TreeNode;
+import old.ch5_BinaryTree.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package ch5_BinaryTree.N144BinaryTreePreorderTraversal;
+package N144BinaryTreePreorderTraversal;
 
 
 import ch5_BinaryTree.TreeNode;
