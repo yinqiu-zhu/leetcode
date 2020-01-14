@@ -17,7 +17,40 @@ package first2last.N004;
  */
 
 class Solution {
+    //the longer array among the two given arrays. If the lengths are same, choose the latter.
+    //the longer array must has a valid split position (at least is t,he first element).
+    int[] longer, shorter;
+    boolean isOdd;
+
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
+        int nums1Length = nums1.length, nums2Length = nums2.length;
+
+        isOdd = (nums1Length + nums2Length) % 2 == 1;
+
+        if (nums1Length > nums2Length){
+            longer = nums1;
+            shorter = nums2;
+        }
+        else {
+            longer = nums2;
+            shorter = nums1;
+        }
+
+        int mid = longer.length / 2 ;
+
+        while (isPosValid(mid) == false){
+            mid = findSplitPosition(mid);
+        }
+
+
+    }
+
+    private int findSplitPosition(int pos){
+        return (longer.length - pos) / 2 + pos;
+     }
+
+    private boolean isPosValid(int pos){
 
     }
 }
