@@ -51,3 +51,16 @@
       nums2 = [3, 4],
       The median is (2 + 3)/2 = 2.5
     +
+  + ###N222 M Count Complete Tree Nodes
+    + Given a complete binary tree, count the number of nodes.
+    
+    + Runtime: 0 ms, faster than 100.00% of Java online submissions for Count Complete Tree Nodes.
+      Memory Usage: 45.4 MB, less than 9.76% of Java online submissions for Count Complete Tree Nodes.
+    +**bit shift**
+    https://www.interviewcake.com/concept/java/bit-shift
+    Left Shifts <<:
+    A single left shift multiplies a binary number by 2
+    logical right shift >>>: 
+    For positive numbers, a single logical right shift divides a number by 2, throwing out any remainders.
+    Arithmetic Right Shifts >>
+    

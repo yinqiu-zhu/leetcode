@@ -1,4 +1,4 @@
-package first2last.N002;
+package first2last.N001099.N002;
 
 public class Solution {
     /*

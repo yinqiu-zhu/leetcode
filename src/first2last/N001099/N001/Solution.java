@@ -1,4 +1,4 @@
-package first2last.N001;
+package first2last.N001099.N001;
 
 /*
 1. Two Sum  E
