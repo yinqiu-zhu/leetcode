@@ -43,7 +43,7 @@ class Solution {
             mid = findSplitPosition(mid);
         }
 
-
+        return 1;
     }
 
     private int findSplitPosition(int pos){
@@ -51,6 +51,6 @@ class Solution {
      }
 
     private boolean isPosValid(int pos){
-
+        return true;
     }
 }
