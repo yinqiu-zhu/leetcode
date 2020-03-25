@@ -1,6 +1,6 @@
-package old.ch1_arrayAndString;
+package first2last.N001099.N026;
 
-public class removeDuplicatesFromSortedArray1_20 {
+public class Solution {
   public int removeDuplicates(int[] nums) {
 
     if (nums == null || nums.length == 0) return 0;
@@ -52,7 +52,7 @@ public class removeDuplicatesFromSortedArray1_20 {
 
     {
       int[] a = {1,1,2};
-      removeDuplicatesFromSortedArray1_20 n = new removeDuplicatesFromSortedArray1_20();
+      Solution n = new Solution();
       System.out.println(n.removeDuplicates(a));
     }
   }

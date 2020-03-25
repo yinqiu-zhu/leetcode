@@ -1,4 +1,4 @@
-package old.ch1_arrayAndString;
+package first2last.N001099.N028;
 
 public class strStr1_8 {
 

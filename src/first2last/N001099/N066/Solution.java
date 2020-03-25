@@ -1,6 +1,6 @@
-package old.ch1_arrayAndString;
+package first2last.N001099.N066;
 
-public class plusOne1_3 {
+public class Solution {
   public int[] solution(int[] digits) {
     int size = digits.length, position = size;
     for (int i = size - 1; i >= 0; i--){
@@ -24,7 +24,7 @@ public class plusOne1_3 {
 
 
 
-  public plusOne1_3() {
+  public Solution() {
     int b = 0;
   }
 
@@ -32,7 +32,7 @@ public class plusOne1_3 {
   public static void main(String... args) {
 
     int[] a = {9,1,9,9,9,9};
-    plusOne1_3 n = new plusOne1_3();
+    Solution n = new Solution();
     System.out.println(n.solution(a));
 
   }
