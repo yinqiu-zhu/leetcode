@@ -1,4 +1,4 @@
-package old.ch2_LinkedList.IntersectionOfTwoLinkedLists_4;
+package first2last.N100199.N160;
 
 public class Solution {
 
