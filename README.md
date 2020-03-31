@@ -89,3 +89,8 @@
     +Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
     
     + 双指针有O(p)解
+    
+  + ###N136 E Single Number
+    + Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+    
+    +Bitwise operators: https://www.geeksforgeeks.org/bitwise-operators-in-java/
