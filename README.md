@@ -94,3 +94,9 @@
     + Given a non-empty array of integers, every element appears twice except for one. Find that single one.
     
     +Bitwise operators: https://www.geeksforgeeks.org/bitwise-operators-in-java/
+  
+  + ###N169 E  Majority Element
+    + Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+      You may assume that the array is non-empty and the majority element always exist in the array.
+      
+    + Boyer-Moore Voting Algorithm
