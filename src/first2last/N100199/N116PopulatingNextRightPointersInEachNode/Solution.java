@@ -1,4 +1,4 @@
-package N116PopulatingNextRightPointersInEachNode;
+package first2last.N100199.N116PopulatingNextRightPointersInEachNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

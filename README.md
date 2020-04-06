@@ -100,3 +100,10 @@
       You may assume that the array is non-empty and the majority element always exist in the array.
       
     + Boyer-Moore Voting Algorithm
+    
+  + ###N171 E Excel Sheet Column Number
+    + Given a column title as appear in an Excel sheet, return its corresponding column number.
+    
+    + like converting a binary number to a decimal, in this problem, we need to convert a base-26 to decimal.
+    
+    
