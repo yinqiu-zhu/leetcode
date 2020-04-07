@@ -1,4 +1,4 @@
-package old.ch4_HashTable.HappyNumber_6;
+package first2last.N200299.N202HappyNumber;
 
 import java.util.HashSet;
 import java.util.Set;
