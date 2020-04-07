@@ -106,4 +106,9 @@
     
     + like converting a binary number to a decimal, in this problem, we need to convert a base-26 to decimal.
     
+  + ###190  E Reverse Bits
+    + Reverse bits of a given 32 bits unsigned integer.
+    
+    + Familiarity with bitwise operation!
+    
     
