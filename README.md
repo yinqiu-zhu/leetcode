@@ -123,3 +123,8 @@
       Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
     
     + Sometimes, it'd be better to check and optimize a DP algorithm by cutting variable's uses for saving the memory costs after finishing the algorithm.
+    
+  + ###237 E Delete Node in a Linked List
+    + Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
+    
+    + Too tricky, so it's better remember the solution: copy node.next.val to node.val, and delete the last node.
