@@ -1,4 +1,4 @@
-package old.ch2_LinkedList.ReverseLinkedList_6;
+package first2last.N200299.N206ReverseLinkedList;
 
 class ListNode {
   int val;

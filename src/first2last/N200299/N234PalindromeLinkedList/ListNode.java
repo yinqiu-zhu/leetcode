@@ -1,4 +1,4 @@
-package old.ch2_LinkedList.PalindromeLinkedList_9;
+package first2last.N200299.N234PalindromeLinkedList;
 
 class ListNode {
   int val;
