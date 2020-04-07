@@ -1,6 +1,6 @@
-package old.ch1_arrayAndString;
+package first2last.N100199.N189;
 
-public class rotateArray1_16 {
+public class Solution {
 
   public void rotate1(int[] nums, int k) {
     int size = nums.length;
@@ -43,7 +43,7 @@ public class rotateArray1_16 {
 
     int[] a = {1, 2, 3, 4, 5};
     int b = 9;
-    rotateArray1_16 n = new rotateArray1_16();
+    Solution n = new Solution();
     n.rotate1(a, b);
   }
 }
