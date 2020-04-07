@@ -115,3 +115,11 @@
     + Write a function that takes an unsigned integer and return the number of '1' bits it has (also known as the Hamming weight).
     
     + Using the bitwise AND operator, we can find the last '1' occurring in a unsigned integer.
+    
+  + ###198 E House Robber
+    + You are a professional robber planning to rob houses along a street.
+     Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+      
+      Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
+    
+    + Sometimes, it'd be better to check and optimize a DP algorithm by cutting variable's uses for saving the memory costs after finishing the algorithm.
