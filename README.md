@@ -116,7 +116,7 @@
     
     + Using the bitwise AND operator, we can find the last '1' occurring in a unsigned integer.
     
-  + ###198 E House Robber
+  + ###198 E    House Robber
     + You are a professional robber planning to rob houses along a street.
      Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
       
@@ -124,7 +124,20 @@
     
     + Sometimes, it'd be better to check and optimize a DP algorithm by cutting variable's uses for saving the memory costs after finishing the algorithm.
     
-  + ###237 E Delete Node in a Linked List
+  + ###237 E    Delete Node in a Linked List
     + Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
     
     + Too tricky, so it's better remember the solution: copy node.next.val to node.val, and delete the last node.
+  
+  + ###326 E    Power of Three
+    + Given an integer, write a function to determine if it is a power of three.
+    
+    + Don't forget basic math knowledge!
+  
+  + ###371 E   Sum of Two Integers
+    + Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
+    
+    + Bitwise manipulation. See: [A summary]( https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently "how to use bit manipulation to solve problems easily and efficiently")
+    
+   
+  
