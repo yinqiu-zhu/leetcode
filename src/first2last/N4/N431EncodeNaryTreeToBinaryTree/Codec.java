@@ -15,8 +15,6 @@ class Node {
 };
 */
 
-import old.ch6_NaryTree.Node;
-
 import java.util.LinkedList;
 import java.util.List;
 
