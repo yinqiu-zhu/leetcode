@@ -51,6 +51,16 @@
       nums2 = [3, 4],
       The median is (2 + 3)/2 = 2.5
     +
+    
+  + ###N005 E  Longest Palindromic Substring
+    + Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+    + **Solution1** dp(n^2):  If we already knew that X is a palindrome, it is obvious that ch1+X+ch2 must be a palindrome iff ch1==ch2, thus we can use dp.
+    + **Solution2** Expand Around Center(n^2): We observe that a palindrome mirrors around its center. 
+    Therefore, a palindrome can be expanded from its center, and there are only 2n-1 such centers. 
+    Check each center to find the longest palindromic substring.
+    + **Solution3** Manacher's Algorithm(n): 
+    
+    
   + ###N222 M Count Complete Tree Nodes
     + Given a complete binary tree, count the number of nodes.
     
