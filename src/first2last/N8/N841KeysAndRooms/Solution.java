@@ -1,4 +1,4 @@
-package N8.N841KeysAndRooms;
+package first2last.N8.N841KeysAndRooms;
 
 import java.util.HashSet;
 import java.util.List;

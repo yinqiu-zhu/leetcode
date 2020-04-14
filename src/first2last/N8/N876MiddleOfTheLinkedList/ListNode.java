@@ -1,4 +1,4 @@
-package N8.N876MiddleOfTheLinkedList;
+package first2last.N8.N876MiddleOfTheLinkedList;
 
 public class ListNode {
      int val;

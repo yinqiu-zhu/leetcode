@@ -1,4 +1,4 @@
-package N8.N844BackspaceStringCompare;
+package first2last.N8.N844BackspaceStringCompare;
 
 import java.util.Stack;
 
