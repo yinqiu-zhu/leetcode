@@ -58,7 +58,7 @@
     + **Solution2** Expand Around Center(n^2): We observe that a palindrome mirrors around its center. 
     Therefore, a palindrome can be expanded from its center, and there are only 2n-1 such centers. 
     Check each center to find the longest palindromic substring.
-    + **Solution3** Manacher's Algorithm(n): 
+    + **Solution3** Manacher's Algorithm(n): see https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
     
     
   + ###N222 M Count Complete Tree Nodes
