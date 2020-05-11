@@ -138,6 +138,12 @@
     + Given an integer, write a function to determine if it is a power of three.
     
     + Don't forget basic math knowledge!
+    
+  + ###367  E   Valid Perfect Square
+    + Given a positive integer num, write a function which returns True if num is a perfect square else False.
+    
+    + Notice and avoid such as mid * mid from overflow.
+    
   
   + ###371 E   Sum of Two Integers
     + Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
